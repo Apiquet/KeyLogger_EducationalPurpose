@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FMUtils.KeyboardHook;
 
 namespace WindowsFormsApp5
 {
@@ -17,9 +18,14 @@ namespace WindowsFormsApp5
         {
             InitializeComponent();
         }
+        private void KeyDown(KeyboardHookEventArgs e)
+        {
+            Console.WriteLine(e.Key.ToString());
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
-            System.IO.File.WriteAllText(@"..\LogKey.txt", data);
+            var KeyboardHook = new Hook("Global Action Hook");
+            KeyboardHook.KeyDownEvent += KeyDown;
         }
     }
 }
