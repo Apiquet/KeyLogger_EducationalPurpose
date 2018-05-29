@@ -29,3 +29,4 @@ C:\Users\anthony.piquet\Documents\GitHub\KeyLogger_EducationalPurpose\KeyLogger\
 C:\Users\anthony.piquet\Documents\GitHub\KeyLogger_EducationalPurpose\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csproj.CopyComplete
 C:\Users\anthony.piquet\Documents\GitHub\KeyLogger_EducationalPurpose\KeyLogger\KeyLogger\obj\Debug\WindowsFormsApp5.exe
 C:\Users\anthony.piquet\Documents\GitHub\KeyLogger_EducationalPurpose\KeyLogger\KeyLogger\obj\Debug\WindowsFormsApp5.pdb
+C:\Users\anthony.piquet\Documents\GitHub\KeyLogger_EducationalPurpose\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csprojAssemblyReference.cache

